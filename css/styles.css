@@ -401,7 +401,7 @@ margin-top: -5rem;
     }
     
 #title{
-    font-size: 3.4rem;
+    font-size: 3.2rem;
 }
 
  #about-text{
@@ -413,7 +413,7 @@ margin-top: -5rem;
 #discounts {
     height: 60%;
 flex-direction: column;
-margin-top: -6rem;
+margin-top: -5rem;
   }
 
   .discount-box {
