@@ -406,6 +406,7 @@ margin-top: -3rem;
    
     #links{
        margin-bottom: 3rem;
+       overflow: hidden;
     }
 
 #discounts {
