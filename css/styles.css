@@ -6,7 +6,8 @@
 --primary-color:#776B5D;
 --secondary-color:#EBE3D5;
 --tertiary-color:#6C3428;
---quaternary-color:#F5E8C7 /*#F5EEDC; #F7F1E5 ;*/
+--quaternary-color: #F7F1E5; /* #F5EEDC; #FAEED1; #F5E8C7; #F7F1E5; */
+--fifth-color: #E38B29;
 }
 
 /* CSS RESET */
@@ -40,14 +41,14 @@ img{
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
-    color: black;
+    color: #fff;
     margin-top: 2rem;
     text-align: center;
     display:block;
     width: 100%;
     padding: 0.6rem 1.5rem;
     border-radius: 3px;
-    background-color: var(--secondary-color);
+    background-color: var(--fifth-color);
     text-transform: uppercase;
 }
 
@@ -73,7 +74,6 @@ img{
     justify-content: center;
     position: fixed;
     width: 100vw;
-    color: black;
     z-index: 99;
 
 }
@@ -88,7 +88,7 @@ img{
     display:inline-block;
     padding: 1.2rem 2rem;
     text-decoration: none;
-    color: black;
+    color: #000;
     font-size: 1.4rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -147,9 +147,10 @@ margin-top: -8rem;
 
 #title{
     color: var(--tertiary-color);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bolder;
     line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
 }
 
 .subtitle{
@@ -195,7 +196,7 @@ margin-top: -8rem;
 
 
 .discount-box h3 {
-    background-color: #B0926A;
+    background-color: #8A6C49; /* #B0926A; */
     font-size: 1.2rem;
     padding: 1rem;
     color: var(--secondary-color);
@@ -210,7 +211,7 @@ margin-top: -8rem;
     font-weight: 700;
     padding: 1rem 0.5rem 1rem;
     float: right;
-    
+    font-weight: 500;
   }
 
   .discount-box a p{
@@ -236,7 +237,7 @@ margin-top: -8rem;
 .contact-form{
     height: 60%;
     background-color: var(--quaternary-color);
-    color: black;
+    color: #000;
     
 }
 
@@ -251,11 +252,9 @@ margin-top: -8rem;
 .contact-form p{
     font-size: 1.05rem;
     padding: 0 0.5rem;
-    
 }
 
 .contact-form p a{
-   
     color: #E38B29;
 }
 
@@ -271,7 +270,7 @@ margin-top: -8rem;
 #message{
     background-color: #fff;
   border: 1.5px solid var(--primary-color);
-  color: black;
+  color: #000;
   font-size: 1.05rem;
   width: 100%;
 }
@@ -301,6 +300,9 @@ margin-top: -8rem;
     color: #fff;
 }
 
+.fa-paw{
+    padding-left: 0.5rem;
+}
 
 /* TABLET AND SMARTPHONES */
 @media only screen and (max-width: 800px) and (min-width: 500px){
