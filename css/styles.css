@@ -461,8 +461,8 @@ margin-top: -6rem;
 
     
     #header-bottom{
-            height: 200vh;
-            margin-top: -20rem;
+            height: 250vh;
+            margin-top: -14rem;
             border-top-left-radius: 50% 6%;
         border-top-right-radius: 50% 6%;
         
@@ -481,13 +481,13 @@ margin-top: -6rem;
     }
     
      #about-text{
-            height: 30%;
+            height: 40%;
            margin-top: 6.5rem;
         }
        
     
     #discounts {
-        height: 60%;
+        height: 50%;
     flex-direction: column;
     margin-top: -6rem;
       }
