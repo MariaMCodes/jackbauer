@@ -303,7 +303,7 @@ margin-top: -8rem;
 
 
 /* TABLET AND SMARTPHONES */
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) and (min-width: 600px){
 
 .btn{
     margin-top: 1rem;
@@ -377,3 +377,75 @@ margin-top: -3rem;
 
 }
 }
+
+
+@media only screen and (max-width:599px) and (min-width:300px){
+    #header-bottom{
+        height: 2000vh;
+        margin-top: -14rem;
+        border-top-left-radius: 50% 5%;
+    border-top-right-radius: 50% 5%;
+    
+    }
+
+#about-image{
+        height:10%;
+    }
+
+    .profile-pic{
+        margin-top: 1rem;
+    }
+
+ #about-text{
+        height: 20%;
+       margin-top: 6rem;
+       
+    }
+    
+#discounts {
+    height: 70%;
+flex-direction: column;
+margin-top: -3rem;
+  }
+
+  .discount-box {
+  width: 70%;
+  height: auto;
+  margin: 0.5rem;
+  }
+
+  .discount-box a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--tertiary-color);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    float: right;
+    
+  }
+
+  .discount-box a p{
+    padding-top: 2rem;
+  }
+
+
+
+  .logo{
+    width: 30%;
+    height:6rem;
+   
+}
+
+#contact{
+   height: 120vh;
+    position: relative;
+
+}
+
+#main-footer{
+    position: relative;
+  margin-top: -26rem;
+
+}
+}
+
