@@ -334,7 +334,7 @@ margin-top: -8rem;
 #discounts {
     height: 70%;
 flex-direction: column;
-margin-top: -3rem;
+margin-top: -5rem;
   }
 
   .discount-box {
@@ -366,7 +366,7 @@ margin-top: -3rem;
 }
 
 #contact{
-   height: 120vh;
+   height: 118vh;
     position: relative;
 
 }
