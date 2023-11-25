@@ -380,7 +380,9 @@ margin-top: -3rem;
 
 
 @media only screen and (max-width:599px) and (min-width:300px){
-    #header-bottom{
+
+    
+#header-bottom{
         height: 170vh;
         margin-top: -14rem;
         border-top-left-radius: 50% 5%;
@@ -438,7 +440,7 @@ margin-top: -6rem;
 }
 
 #contact{
-   height: 120vh;
+   height: 140vh;
     position: relative;
 
 }
