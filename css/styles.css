@@ -398,19 +398,16 @@ margin-top: -3rem;
     
 
  #about-text{
-        height: 20%;
+        height: 30%;
        margin-top: 7rem;
      
        
     }
    
-    #links{
-       margin-bottom: 3rem;
-       overflow: hidden;
-    }
+    
 
 #discounts {
-    height: 70%;
+    height: 60%;
 flex-direction: column;
 
   }
