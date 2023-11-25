@@ -409,7 +409,7 @@ margin-top: -3rem;
 #discounts {
     height: 60%;
 flex-direction: column;
-
+margin-top: -3rem;
   }
 
   .discount-box {
