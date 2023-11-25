@@ -381,7 +381,7 @@ margin-top: -5rem;
 }
 
 
-@media only screen and (max-width:499px) and (min-width:200px){
+@media only screen and (max-width:499px) and (min-width:300px){
 
     
 #header-bottom{
@@ -457,3 +457,78 @@ margin-top: -6rem;
 }
 }
 
+@media only screen and (max-width:299px){
+
+    
+    #header-bottom{
+            height: 190vh;
+            margin-top: -14rem;
+            border-top-left-radius: 50% 6%;
+        border-top-right-radius: 50% 6%;
+        
+        }
+    
+    #about-image{
+            height:10%;
+        }
+    
+        .profile-pic{
+            margin-top: -0.5rem;
+        }
+        
+    #title{
+        font-size: 3.2rem;
+    }
+    
+     #about-text{
+            height: 30%;
+           margin-top: 6.5rem;
+        }
+       
+    
+    #discounts {
+        height: 60%;
+    flex-direction: column;
+    margin-top: -6rem;
+      }
+    
+      .discount-box {
+      width: 70%;
+      height: auto;
+      margin: 0.5rem;
+      }
+    
+      .discount-box a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: var(--tertiary-color);
+        font-weight: 700;
+        padding: 0.5rem 1rem;
+        float: right;
+        
+      }
+    
+      .discount-box a p{
+        padding-top: 1.2rem;
+      }
+    
+    
+    
+      .logo{
+        width: 40%;
+        height:6rem;
+       
+    }
+    
+    #contact{
+       height: 135vh;
+        position: relative;
+    
+    }
+    
+    #main-footer{
+        position: relative;
+      margin-top: -28rem;
+    
+    }
+}
