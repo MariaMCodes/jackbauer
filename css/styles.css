@@ -400,10 +400,14 @@ margin-top: -3rem;
  #about-text{
         height: 20%;
        margin-top: 7rem;
-       margin-bottom: 3rem;
+     
        
     }
-    
+   
+    #links{
+        position: relative;
+    }
+
 #discounts {
     height: 70%;
 flex-direction: column;
