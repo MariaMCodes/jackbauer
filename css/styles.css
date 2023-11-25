@@ -400,16 +400,13 @@ margin-top: -3rem;
  #about-text{
         height: 30%;
        margin-top: 7rem;
-     
-       
     }
    
-    
 
 #discounts {
     height: 60%;
 flex-direction: column;
-margin-top: -8rem;
+margin-top: -6rem;
   }
 
   .discount-box {
