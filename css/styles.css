@@ -382,7 +382,7 @@ margin-top: -3rem;
 @media only screen and (max-width:599px) and (min-width:300px){
     #header-bottom{
         height: 180vh;
-        margin-top: -12rem;
+        margin-top: -14rem;
         border-top-left-radius: 50% 5%;
     border-top-right-radius: 50% 5%;
     
@@ -399,14 +399,14 @@ margin-top: -3rem;
 
  #about-text{
         height: 20%;
-       margin-top: 6rem;
+       margin-top: 7rem;
        
     }
     
 #discounts {
     height: 70%;
 flex-direction: column;
-margin-top: -3rem;
+margin-top: 3rem;
   }
 
   .discount-box {
