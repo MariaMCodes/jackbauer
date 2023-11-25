@@ -385,8 +385,8 @@ margin-top: -3rem;
 #header-bottom{
         height: 170vh;
         margin-top: -14rem;
-        border-top-left-radius: 50% 8%;
-    border-top-right-radius: 50% 8%;
+        border-top-left-radius: 50% 6%;
+    border-top-right-radius: 50% 6%;
     
     }
 
@@ -395,7 +395,7 @@ margin-top: -3rem;
     }
 
     .profile-pic{
-        margin-top: -4rem;
+        margin-top: -3rem;
     }
     
 
