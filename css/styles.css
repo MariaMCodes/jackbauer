@@ -60,7 +60,7 @@ img{
 
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
-   height: 40vh;
+   height: 50vh;
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ img{
 /* TABLET AND SMARTPHONES */
 
 /* 320px — 480px: Mobile devices */
-@media only screen and (min-width:320px){
+@media only screen and (min-width:320px) and (max-width: 480px){
     .container{
         width: 290px;
         padding: 0 1rem;
@@ -454,20 +454,20 @@ row-gap: 0;
 
 }
 
-/* 481px — 768px: iPads, Tablets */
+/* 481px — 768px: iPads, Tablets 
 @media only screen and (min-width: 481px){
     .container{
        width: 451px;
     }
 
-/* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
+/* HEADER SECTION - DOG BONE BACKGROUND IMAGE 
 #header-top{
     height: 40vh;
  }
 
 
 /* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
+/* ABOUT - PROFILE PIC + INTRO 
 #header-bottom{
     height: 170vh;
     margin-top: -2rem;
@@ -507,7 +507,7 @@ font-size: 2.8rem;
 margin-top: 0.5rem;
 }
 
-/* DISCOUNTS SECTION */
+/* DISCOUNTS SECTION 
 #discounts {
 height: 50%;
 margin-top: -2rem;
@@ -533,7 +533,7 @@ padding:  0.8rem 0 0 1rem;
 width: 35%;
 }
 
-/* CONTACT SECTION */
+/* CONTACT SECTION 
 #contact{
 height: 90vh;
 }
@@ -561,7 +561,7 @@ min-width: 260px;
 }
 
 
-/* FOOTER */
+/* FOOTER 
 #main-footer p{
 padding-top: 2rem;
 }
@@ -569,7 +569,7 @@ padding-top: 2rem;
 }
 
 
-/* 769px — 1024px: Small screens, laptops */
+/* 769px — 1024px: Small screens, laptops 
 @media only screen and (min-width: 769px){
     .container{
 width: 739px;
@@ -580,8 +580,9 @@ padding: 0 2rem;
         height: 40vh;
      }
 
+
     /* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
+/* ABOUT - PROFILE PIC + INTRO 
 #header-bottom{
     height:85vh;
     margin-top: -6rem;
@@ -613,7 +614,7 @@ padding: 0 2rem;
     }
 
 
-/* DISCOUNTS SECTION */
+/* DISCOUNTS SECTION 
     #discounts {
         height: 45%;
     margin-top: -4rem;
@@ -634,7 +635,7 @@ padding: 0 2rem;
                 width: 35%;
                 }
 
-/* CONTACT SECTION */
+/* CONTACT SECTION 
 #contact{
     height: 60vh;
     }
@@ -651,7 +652,7 @@ padding: 0 2rem;
     }
     
     
-    /* FOOTER */
+    /* FOOTER 
     #main-footer p{
     padding-top: 3rem;
     }
@@ -661,21 +662,18 @@ padding: 0 2rem;
 
 /* Desktops */
 
-/* 1025px — 1200px: Desktops, large screens */
+/* 1025px — 1200px: Desktops, large screens 
 @media only screen and (min-width: 1025px){
     .container{
         width: 995px;
         padding: 0 2rem;
     }
-    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
-    #header-top{
+    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE 
         height: 40vh;
      }
      
      /* BODY SECTION */
-     /* ABOUT - PROFILE PIC + INTRO */
-     #header-bottom {
-        height: 60vh;
+     /* ABOUT - PROFILE PIC + INTRO 
          margin-top: -18rem;
      }
      
@@ -687,13 +685,13 @@ padding: 0 2rem;
      }
      
      
-     /* DISCOUNTS SECTION */
+     /* DISCOUNTS SECTION 
      #discounts{
          margin-top: -3rem;
          row-gap: 0;
      }
 
-     /* CONTACT SECTION */
+     /* CONTACT SECTION 
 #contact{
     height: 45vh;
     }
@@ -710,7 +708,7 @@ padding: 0 2rem;
     }
     
     
-    /* FOOTER */
+    /* FOOTER 
     #main-footer p{
     padding-top: 5rem;
     }
@@ -718,19 +716,19 @@ padding: 0 2rem;
     
 
 
-/* 1201px and greater: Desktops, large screens */
+/* 1201px and greater: Desktops, large screens 
 @media only screen and (min-width: 1201px){
     .container{
         width: 1171px;
         padding: 0 4rem;
     }
-    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
+    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE 
     #header-top{
         height: 40vh;
      }
      
      /* BODY SECTION */
-     /* ABOUT - PROFILE PIC + INTRO */
+     /* ABOUT - PROFILE PIC + INTRO 
      #header-bottom {
         height: 55vh;
          margin-top: -18rem;
@@ -744,14 +742,14 @@ padding: 0 2rem;
      }
      
      
-     /* DISCOUNTS SECTION */
+     /* DISCOUNTS SECTION 
      #discounts{
          margin-top: -5rem;
          row-gap: 0;
          max-width: 1200px;
      }
 
-     /* CONTACT SECTION */
+     /* CONTACT SECTION 
 #contact{
     height: 40vh;
     }
@@ -768,7 +766,7 @@ padding: 0 2rem;
     }
     
     
-    /* FOOTER */
+    /* FOOTER
     #main-footer p{
     padding-top: 5rem;
     }
