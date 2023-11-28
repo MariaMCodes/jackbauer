@@ -474,19 +474,19 @@ img{
 }
 
 #about-image{
-    height:10%;
+    height:20%;
 }
 
 .profile-pic{
 height: 20rem;
 width: 20rem;
-margin-top: -3rem;
+margin-top: -12rem;
 
  } 
 
  #about-text{
     height: 30%;
-   margin-top:6rem;
+   margin-top:-2rem;
 }
 
 #title1{
@@ -497,21 +497,19 @@ margin-top: -3rem;
 font-size: 2.8rem;
 }
 
+.subtitle{
+    margin-top: 2rem;
+}
 
 #links{
-margin-top: -0.5rem;
+margin-top: 1rem;
 }
 
 /* DISCOUNTS SECTION */
 #discounts {
-height: 60%;
-flex-direction: column;
-margin-top: -5rem;
-}
-
-.discount-box {
-width: 70%;
-margin: 0.3rem;
+height: 50%;
+margin-top: -1rem;
+row-gap: 0;
 }
 
 .discount-box h3 {
@@ -521,14 +519,11 @@ margin: 0.3rem;
 .discount-box a {
 width: 100%;
 padding: 0.5rem 2rem;
-font-weight: 500;
-display: flex;
-flex-direction: row;
 }
 
 .discount-box a p{
 width: 65%;
-padding: 0.3rem 0 0 1rem;
+padding:  0.3rem 0 0 1rem;
 }
 
 
@@ -540,15 +535,15 @@ height:4rem;
 
 /* CONTACT SECTION */
 #contact{
-height: 85vh;
+height: 80vh;
 }
 
 .contact-form{
-height: 30%;
+height: 60%;
 }
 
 .contact-form h2{
-padding: 2rem 0.5rem 1rem;
+padding: 4rem 0.5rem 2rem;
 }
 
 .contact-form p{
@@ -557,20 +552,18 @@ padding: 0.5rem;
 }
 
 #form{
-height: 70%;
 max-width: 700px;
 min-width: 400px; 
 }
 
-
-/* FOOTER */
-#main-footer{
-height: 10vh;
-margin-top: -1rem;
+#message{
+    margin-top: -8rem;
 }
 
+
+/* FOOTER */
 #main-footer p{
-padding-top: 1.4rem;
+padding-top: 1.2rem;
 }
 
 }
