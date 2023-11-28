@@ -58,11 +58,9 @@ img{
 }
 
 
-@media only screen and (min-width: 1201px){
-
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
-   height: 50vh;
+   height: 40vh;
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,17 +124,17 @@ img{
 
 .profile-pic{
    border-radius: 50%; 
-   height: 40rem;
-    width: 40rem;
+   height: 25rem;
+    width: 25rem;
     object-fit:cover;
     object-position: -100% 70%;
-    border: var(--primary-color) 20px solid;
-    margin-top: -12rem;
+    border: var(--primary-color) 10px solid;
+    margin-top: -32rem;
 }
 
 #about-text{
     height: 35%;
-   margin-top: 6rem;
+   margin-top: -5rem;
 }
 
 #title1, #title2{
@@ -147,20 +145,20 @@ img{
 
 #title1{
     font-family: 'Agbalumo', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #title2{
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    font-size: 4.8rem;
+    font-size: 3.6rem;
 }
 
 .subtitle{
     color:var(--primary-color);
     font-size: 1.2rem;
     font-weight: 100;
-    margin-top: 2rem;
+    margin-top: 10rem;
 }
 
 #links{
@@ -169,6 +167,7 @@ img{
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
+    margin-top: 5rem;
 }
 
 /* DISCOUNTS SECTION */
@@ -178,7 +177,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 6rem;
     column-gap: 2rem;
     max-width: 1000px;
     margin-top: -6rem;
@@ -254,24 +253,24 @@ img{
 
 /* CONTACT SECTION */
 #contact{
-    height:70vh;
+    height:50vh;
     width: 100vw;
     text-align: center;
     position: relative;
-
+  background-color: var(--quaternary-color);
 }
 
 .contact-form{
     height: 60%;
     color: #000;
-    background-color: var(--quaternary-color);
+  
     
 }
 
 
 .contact-form h2{
     font-size: 1.2rem;
-    padding: 2rem 0.5rem;
+    padding: 10rem 0.5rem 5rem;
  color: #E38B29;  /* #FFBB5C */
 
 }
@@ -287,7 +286,7 @@ img{
 
 #form{
     height: 40%;
-    margin-top: 2rem;
+    margin-top: 10rem;
     max-width: 1200px;
   min-width: 950px;
   display: inline-block;
@@ -304,7 +303,6 @@ img{
 /* FOOTER */
 #main-footer{
     width: 100vw;
-   margin-top: -24rem;
     background-color: var(--primary-color);
     height: 8vh;
     text-align: center;
@@ -315,7 +313,7 @@ img{
     font-size: 1.2rem;
     color: #fff;
     font-weight: 500;
-    padding-top: 2.5rem;
+    padding-top: 5rem;
   
 }
 
@@ -328,7 +326,7 @@ img{
     padding-left: 0.5rem;
 }
 
-}
+
 
 /* Desktops */
 
