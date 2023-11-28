@@ -30,7 +30,7 @@ img{
 
 /* UTILITY CLASSES */
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0 1.5rem;
     overflow: hidden;
     margin: auto;
@@ -331,7 +331,10 @@ img{
 /* Desktops */
 
 /* 1025px — 1200px: Desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px){
+@media only screen and (min-width: 1025px){
+.container{
+    width: 975px;
+}
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
     height: 40vh;
@@ -348,7 +351,8 @@ img{
  .profile-pic{
     height: 20rem;
      width: 20rem;
-     margin-top: -38rem;
+     margin-top: -38
+     rem;
  }
  
  
@@ -370,7 +374,10 @@ img{
 /* TABLET AND SMARTPHONES */
 
 /* 769px — 1024px: Small screens, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+@media only screen and (min-width: 769px){
+    .container{
+width: 719px;
+    }
     #header-top{
         height: 30vh;
      }
