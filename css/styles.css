@@ -469,8 +469,8 @@ img{
 #header-bottom{
     height: 150vh;
     margin-top: -4rem;
-    border-top-left-radius: 60% 6%;
-    border-top-right-radius: 60% 6%;
+    border-top-left-radius: 70% 6%;
+    border-top-right-radius: 70% 6%;
 }
 
 #about-image{
@@ -573,7 +573,7 @@ padding-top: 1.2rem;
 @media only screen and (min-width:320px) and (max-width:480px){
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
     #header-top{
-        height: 30vh;
+        height: 35vh;
      }
 
 /* NAVIGATION BAR */ 
@@ -585,7 +585,7 @@ padding-top: 1.2rem;
 /* BODY SECTION */
 /* ABOUT - PROFILE PIC + INTRO */
 #header-bottom{
-        height: 140vh;
+        height: 160vh;
         margin-top: -3rem;
         border-top-left-radius: 70% 6%;
         border-top-right-radius: 70% 6%;
@@ -598,13 +598,13 @@ padding-top: 1.2rem;
 .profile-pic{
 height: 15rem;
 width: 15rem;
-margin-top: -3rem;
+margin-top: -4rem;
     
      } 
 
      #about-text{
-        height: 30%;
-       margin-top:4rem;
+        height: 35%;
+       margin-top:3rem;
     }
 
 #title1{
@@ -617,23 +617,20 @@ margin-top: -3rem;
 
 .subtitle{
     font-size: 1rem;
+    margin-top: 2rem;
 }
 
 #links{
-    margin-top: -1rem;
+    margin-top: 0;
 }
 
 /* DISCOUNTS SECTION */
 #discounts {
-    height: 60%;
-flex-direction: column;
-margin-top: -3rem;
+    height: 55%;
+margin: -4rem 1rem 0;
+row-gap: 0;
   }
 
-  .discount-box {
-  width: 70%;
-  margin: 0.3rem;
-  }
 
   .discount-box h3 {
     font-size: 1.1rem;
@@ -642,48 +639,40 @@ margin-top: -3rem;
 
   .discount-box a {
     width: 100%;
-    padding: 0.5rem;
-    font-weight: 500;
-    display: flex;
-    flex-direction: row;
+    padding: 0.5rem 2rem;
   }
 
   .discount-box a p{
     width: 65%;
-    padding: 0.3rem 0 0 0.3rem;
+    padding: 0.3rem 0 0 1rem;
   }
 
 
   .logo{
     width: 35%;
-    height:4rem;
-    
 }
 
 /* CONTACT SECTION */
 #contact{
-   height: 90vh;
-}
-
-.contact-form{
-    height: 30%;
+   height: 100vh;
 }
 
 .contact-form h2{
     font-size: 1.1rem;
-    padding: 2rem 0.5rem 1rem;
+    padding: 3rem 0.5rem 2rem;
 }
 
 .contact-form p{
-    font-size: 1rem;
     padding: 0.5rem;
-
 }
 
 #form{
-    height: 70%;
     max-width: 400px;
   min-width: 100px; 
+}
+
+#message{
+    margin-top: -8rem;
 }
 
 
@@ -695,7 +684,7 @@ margin-top: -3rem;
 
 #main-footer p{
     font-size: 1rem;
-    padding-top: 1.2rem;
+    padding-top: 1.4rem;
 }
 
 }
