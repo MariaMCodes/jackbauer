@@ -490,7 +490,7 @@ width: 719px;
 .profile-pic{
 height: 20rem;
 width: 20rem;
-margin-top: -12rem;
+margin-top: -16rem;
 
  } 
 
@@ -563,7 +563,7 @@ padding: 0.5rem;
 
 #form{
 max-width: 700px;
-min-width: 400px; 
+min-width: 260px; 
 }
 
 #message{
