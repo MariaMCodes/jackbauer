@@ -30,7 +30,7 @@ img{
 
 /* UTILITY CLASSES */
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 0 1.5rem;
     overflow: hidden;
     margin: auto;
@@ -687,15 +687,6 @@ padding: 0 2rem;
      }
      
      
-     #title1{
-         font-size: 3rem;
-     }
-     
-     #title2{
-         font-size: 3.6rem;
-     }
-     
-     
      /* DISCOUNTS SECTION */
      #discounts{
          margin-top: -3rem;
@@ -715,6 +706,64 @@ padding: 0 2rem;
     #form{
     max-width: 1000px;
     min-width: 700px; 
+    margin-top: 12rem;
+    }
+    
+    
+    /* FOOTER */
+    #main-footer p{
+    padding-top: 5rem;
+    }
+    }    
+    
+
+
+/* 1201px and greater: Desktops, large screens */
+@media only screen and (min-width: 1201px){
+    .container{
+        width: 1171px;
+        padding: 0 4rem;
+    }
+    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
+    #header-top{
+        height: 40vh;
+     }
+     
+     /* BODY SECTION */
+     /* ABOUT - PROFILE PIC + INTRO */
+     #header-bottom {
+        height: 55vh;
+         margin-top: -18rem;
+     }
+     
+     
+     .profile-pic{
+        height: 20rem;
+         width: 20rem;
+         margin-top: -10rem;
+     }
+     
+     
+     /* DISCOUNTS SECTION */
+     #discounts{
+         margin-top: -5rem;
+         row-gap: 0;
+         max-width: 1200px;
+     }
+
+     /* CONTACT SECTION */
+#contact{
+    height: 40vh;
+    }
+    
+    .contact-form h2{
+    padding: 5rem 0.5rem 2.5rem;
+    }
+    
+    
+    #form{
+    max-width: 1200px;
+    min-width: 1000px; 
     margin-top: 12rem;
     }
     
