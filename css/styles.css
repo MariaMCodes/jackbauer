@@ -328,260 +328,14 @@ img{
 
 
 
-/* Desktops */
-
-/* 1025px — 1200px: Desktops, large screens */
-@media only screen and (min-width: 1025px){
-.container{
-    width: 975px;
-}
-/* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
-#header-top{
-    height: 40vh;
- }
- 
- /* BODY SECTION */
- /* ABOUT - PROFILE PIC + INTRO */
- #header-bottom {
-    height: 100vh;
-     margin-top: -18rem;
- }
- 
- 
- .profile-pic{
-    height: 20rem;
-     width: 20rem;
-     margin-top: -38
-     rem;
- }
- 
- 
- #title1{
-     font-size: 3rem;
- }
- 
- #title2{
-     font-size: 3.6rem;
- }
- 
- 
- /* DISCOUNTS SECTION */
- #discounts{
-     margin-top: -2rem;
- }
-}    
 
 /* TABLET AND SMARTPHONES */
-
-/* 769px — 1024px: Small screens, laptops */
-@media only screen and (min-width: 769px){
-    .container{
-width: 739px;
-    }
-    #header-top{
-        height: 30vh;
-     }
-
-    /* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
-#header-bottom{
-    height: 80vh;
-    margin-top: -8rem;
-    border-top-left-radius: 50% 10%;
-    border-top-right-radius: 50% 10%;
-}
-
-    #about-image{
-        height:20%;
-    }
-
-    .profile-pic{
-        height: 20rem;
-        width: 20rem;
-        margin-top: -13rem;
-    }
-
-    #about-text{
-        height: 35%;
-       margin-top: 2rem;
-    }
-
-    .subtitle{
-        margin-top: 4rem;
-    }
-
-    #links{
-        margin-top: 2rem;
-    }
-
-
-/* DISCOUNTS SECTION */
-    #discounts {
-        height: 45%;
-    margin-top: -4rem;
-    row-gap: 0;
-}
-
-    .discount-box a {
-        width: 100%;
-        padding: 0.5rem 2rem;
-        font-weight: 500;
-        }
-
-        .discount-box a p{
-            width: 65%;
-            padding: 1rem 0 0 1rem;
-            }
-
-            .logo{
-                width: 35%;
-                }
-
-/* CONTACT SECTION */
-#contact{
-    height: 50vh;
-    }
-    
-    .contact-form h2{
-    padding: 5rem 0.5rem;
-    }
-    
-    
-    #form{
-    max-width: 1000px;
-    min-width: 700px; 
-    margin-top: 5rem;
-    }
-    
-    
-    /* FOOTER */
-    #main-footer p{
-    padding-top: 3rem;
-    }
-    
-}
-
-/* 481px — 768px: iPads, Tablets */
-@media only screen and (min-width: 481px){
-    .container{
-        width: 451px;
-    }
-
-/* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
-#header-top{
-    height: 40vh;
- }
-
-
-/* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
-#header-bottom{
-    height: 150vh;
-    margin-top: -4rem;
-    border-top-left-radius: 70% 6%;
-    border-top-right-radius: 70% 6%;
-}
-
-#about-image{
-    height:20%;
-}
-
-.profile-pic{
-height: 20rem;
-width: 20rem;
-margin-top: -16rem;
-
- } 
-
- #about-text{
-    height: 30%;
-   margin-top:-2rem;
-}
-
-#title1{
-    font-size: 2.4rem;
-}
-
-#title2{
-font-size: 2.8rem;
-}
-
-.subtitle{
-    margin-top: 2rem;
-}
-
-#links{
-margin-top: 1rem;
-}
-
-/* DISCOUNTS SECTION */
-#discounts {
-height: 50%;
-margin-top: -1rem;
-row-gap: 0;
-}
-
-.discount-box h3 {
-    padding: 0.75rem;
-}
-
-.discount-box a {
-width: 100%;
-padding: 0.5rem 2rem;
-}
-
-.discount-box a p{
-width: 65%;
-padding:  0.3rem 0 0 1rem;
-}
-
-
-.logo{
-width: 35%;
-height:4rem;
-
-}
-
-/* CONTACT SECTION */
-#contact{
-height: 80vh;
-}
-
-.contact-form{
-height: 60%;
-}
-
-.contact-form h2{
-padding: 4rem 0.5rem 2rem;
-}
-
-.contact-form p{
-padding: 0.5rem;
-
-}
-
-#form{
-max-width: 700px;
-min-width: 260px; 
-}
-
-#message{
-    margin-top: -8rem;
-}
-
-
-/* FOOTER */
-#main-footer p{
-padding-top: 1.2rem;
-}
-
-}
-
 
 /* 320px — 480px: Mobile devices */
 @media only screen and (min-width:320px){
     .container{
         width: 290px;
+        padding: 0 1rem;
     }
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
     #header-top{
@@ -691,7 +445,6 @@ row-gap: 0;
 /* FOOTER */
 #main-footer{
   height: 12vh;
-  margin-top: -1rem;
 }
 
 #main-footer p{
@@ -700,3 +453,277 @@ row-gap: 0;
 }
 
 }
+
+/* 481px — 768px: iPads, Tablets */
+@media only screen and (min-width: 481px){
+    .container{
+       width: 451px;
+    }
+
+/* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
+#header-top{
+    height: 40vh;
+ }
+
+
+/* BODY SECTION */
+/* ABOUT - PROFILE PIC + INTRO */
+#header-bottom{
+    height: 170vh;
+    margin-top: -2rem;
+    border-top-left-radius: 70% 6%;
+    border-top-right-radius: 70% 6%;
+}
+
+#about-image{
+    height:20%;
+}
+
+.profile-pic{
+height: 20rem;
+width: 20rem;
+margin-top: -12rem;
+
+ } 
+
+ #about-text{
+    height: 30%;
+   margin-top:-2rem;
+}
+
+#title1{
+    font-size: 2.4rem;
+}
+
+#title2{
+font-size: 2.8rem;
+}
+
+.subtitle{
+    margin-top: 2rem;
+}
+
+#links{
+margin-top: 0.5rem;
+}
+
+/* DISCOUNTS SECTION */
+#discounts {
+height: 50%;
+margin-top: -2rem;
+row-gap: 1rem;
+}
+
+.discount-box h3 {
+    padding: 0.75rem;
+}
+
+.discount-box a {
+width: 100%;
+padding: 0.5rem 2rem;
+}
+
+.discount-box a p{
+width: 65%;
+padding:  0.8rem 0 0 1rem;
+}
+
+
+.logo{
+width: 35%;
+}
+
+/* CONTACT SECTION */
+#contact{
+height: 90vh;
+}
+
+.contact-form{
+height: 60%;
+}
+
+.contact-form h2{
+padding: 3rem 0.5rem 1.5rem;
+}
+
+.contact-form p{
+padding: 0.5rem;
+
+}
+
+#form{
+max-width: 400px;
+min-width: 260px; 
+}
+
+#message{
+    margin-top: -8rem;
+}
+
+
+/* FOOTER */
+#main-footer p{
+padding-top: 2rem;
+}
+
+}
+
+
+/* 769px — 1024px: Small screens, laptops */
+@media only screen and (min-width: 769px){
+    .container{
+width: 739px;
+padding: 0 2rem;
+    }
+
+    #header-top{
+        height: 40vh;
+     }
+
+    /* BODY SECTION */
+/* ABOUT - PROFILE PIC + INTRO */
+#header-bottom{
+    height:85vh;
+    margin-top: -6rem;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+    #about-image{
+        height:20%;
+    }
+
+    .profile-pic{
+        height: 20rem;
+        width: 20rem;
+        margin-top: -9rem;
+    }
+
+    #about-text{
+        height: 35%;
+       margin-top: 2rem;
+    }
+
+    .subtitle{
+        margin-top: 2rem;
+    }
+
+    #links{
+        margin-top: 0;
+    }
+
+
+/* DISCOUNTS SECTION */
+    #discounts {
+        height: 45%;
+    margin-top: -4rem;
+    row-gap: 0;
+}
+
+    .discount-box a {
+        width: 100%;
+        padding: 0.5rem 2rem;
+        }
+
+        .discount-box a p{
+            width: 65%;
+            padding: 1rem 0 0 1rem;
+            }
+
+            .logo{
+                width: 35%;
+                }
+
+/* CONTACT SECTION */
+#contact{
+    height: 60vh;
+    }
+    
+    .contact-form h2{
+    padding: 5rem 0.5rem 2.5rem;
+    }
+    
+    
+    #form{
+    max-width: 700px;
+    min-width: 400px; 
+    margin-top: 12rem;
+    }
+    
+    
+    /* FOOTER */
+    #main-footer p{
+    padding-top: 3rem;
+    }
+    
+}
+
+
+/* Desktops */
+
+/* 1025px — 1200px: Desktops, large screens */
+@media only screen and (min-width: 1025px){
+    .container{
+        width: 995px;
+        padding: 0 2rem;
+    }
+    /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
+    #header-top{
+        height: 40vh;
+     }
+     
+     /* BODY SECTION */
+     /* ABOUT - PROFILE PIC + INTRO */
+     #header-bottom {
+        height: 60vh;
+         margin-top: -18rem;
+     }
+     
+     
+     .profile-pic{
+        height: 20rem;
+         width: 20rem;
+         margin-top: -9rem;
+     }
+     
+     
+     #title1{
+         font-size: 3rem;
+     }
+     
+     #title2{
+         font-size: 3.6rem;
+     }
+     
+     
+     /* DISCOUNTS SECTION */
+     #discounts{
+         margin-top: -3rem;
+         row-gap: 0;
+     }
+
+     /* CONTACT SECTION */
+#contact{
+    height: 45vh;
+    }
+    
+    .contact-form h2{
+    padding: 5rem 0.5rem 2.5rem;
+    }
+    
+    
+    #form{
+    max-width: 1000px;
+    min-width: 700px; 
+    margin-top: 12rem;
+    }
+    
+    
+    /* FOOTER */
+    #main-footer p{
+    padding-top: 5rem;
+    }
+    }    
+    
+
+
