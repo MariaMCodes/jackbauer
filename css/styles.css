@@ -376,7 +376,7 @@ img{
 /* 769px — 1024px: Small screens, laptops */
 @media only screen and (min-width: 769px){
     .container{
-width: 719px;
+width: 739px;
     }
     #header-top{
         height: 30vh;
@@ -442,7 +442,6 @@ width: 719px;
     height: 50vh;
     }
     
-   
     .contact-form h2{
     padding: 5rem 0.5rem;
     }
