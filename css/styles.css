@@ -60,7 +60,7 @@ img{
 
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
-   height: 80vh;
+   height: 60vh;
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
