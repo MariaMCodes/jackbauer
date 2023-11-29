@@ -509,7 +509,7 @@ margin-top: 0.5rem;
 #discounts {
 height: 50%;
 margin-top: -2rem;
-row-gap: 1rem;
+row-gap: 0;
 }
 
 .discount-box h3 {
@@ -531,37 +531,16 @@ padding:  0.8rem 0 0 1rem;
 width: 35%;
 }
 
+
 /* CONTACT SECTION */
-#contact{
-height: 90vh;
-}
-
-.contact-form{
-height: 60%;
-}
-
-.contact-form h2{
-padding: 3rem 0.5rem 1.5rem;
-}
-
-.contact-form p{
-padding: 0.5rem;
-
-}
-
 #form{
 max-width: 400px;
 min-width: 260px; 
 }
 
-#message{
-    margin-top: -8rem;
-}
-
-
 /* FOOTER */
 #main-footer p{
-padding-top: 2rem;
+padding-top: 1.5rem;
 }
 
 }
