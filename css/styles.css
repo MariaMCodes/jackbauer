@@ -381,11 +381,11 @@ margin-top: -4rem;
 
 .subtitle{
     font-size: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #links{
-    margin-top: 0;
+    margin-top: -0.5rem;
 }
 
 /* DISCOUNTS SECTION */
