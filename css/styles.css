@@ -303,16 +303,15 @@ img{
     width: 100vw;
     background-color: var(--primary-color);
     height: 8vh;
-    text-align: center;
     position:relative;
+    display: flex;
+    align-items: center;
 }
 
 #main-footer p{
     font-size: 1.2rem;
     color: #fff;
     font-weight: 500;
-    padding-top: 1rem;
-  
 }
 
 #main-footer p a{
@@ -452,7 +451,6 @@ row-gap: 0;
 
 #main-footer p{
     font-size: 1rem;
-    padding-top: 1.4rem;
 }
 
 }
@@ -547,10 +545,6 @@ max-width: 400px;
 min-width: 260px; 
 }
 
-/* FOOTER */
-#main-footer p{
-padding-top: 0.7rem;
-}
 
 }
 
