@@ -533,6 +533,10 @@ width: 35%;
 
 
 /* CONTACT SECTION */
+#contact{
+    height: 100vh;
+}
+
 #form{
 max-width: 400px;
 min-width: 260px; 
