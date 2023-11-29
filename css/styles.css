@@ -349,7 +349,7 @@ img{
 /* BODY SECTION */
 /* ABOUT - PROFILE PIC + INTRO */
 #header-bottom{
-        height: 160vh;
+        height: 180vh;
         margin-top: -3rem;
         border-top-left-radius: 70% 6%;
         border-top-right-radius: 70% 6%;
@@ -391,8 +391,8 @@ margin-top: -4rem;
 /* DISCOUNTS SECTION */
 #discounts {
     height: 55%;
-margin: -5rem 1rem 0;
-row-gap: 0;
+margin: -6rem 1rem 0;
+row-gap: 0.5rem;
   }
 
 
