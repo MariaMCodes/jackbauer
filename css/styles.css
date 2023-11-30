@@ -365,9 +365,8 @@ margin-top: -4rem;
     
      } 
 
-     #about-text{
-        height: 30%;
-    
+#about-text{
+    height: 30%;
     }
 
 #title1{
@@ -380,12 +379,12 @@ margin-top: -4rem;
 
 .subtitle{
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-weight: 600;
 }
 
 #links{
-    margin-top: -0.5rem;
+    margin-top: 0rem;
 }
 
 /* DISCOUNTS SECTION */
