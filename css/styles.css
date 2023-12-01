@@ -130,12 +130,40 @@ img{
     object-position: -100% 70%;
     border: var(--primary-color) 10px solid;
     margin-top: -10rem;
+    animation: jackanimation 3.5s;
+    animation-timing-function:ease-in-out;
 }
+
+@keyframes jackanimation{
+    0% {
+        margin-top: 20%;
+          }
+        50% {
+        margin-top: -160px;
+          }
+        100% {
+        margin-bottom:0%;
+          }
+        }
+
 
 #about-text{
     height: 40%;
    margin-top: 2rem;
+   animation: textanimation 2s;
 }
+
+@keyframes textanimation{
+    0% {
+        margin-top: 0%;
+          }
+        50% {
+        margin-top: 0px;
+          }
+        100% {
+        margin-bottom: 0%;
+          }
+        }
 
 #title1, #title2{
     color: var(--tertiary-color);
