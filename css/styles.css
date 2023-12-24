@@ -344,7 +344,7 @@ img{
     }
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
     #header-top{
-        height: 120vh;
+        height: 110vh;
      }
 
 /* NAVIGATION BAR */ 
@@ -383,7 +383,7 @@ img{
 /* BODY SECTION */
 /* ABOUT - PROFILE PIC + INTRO */
 #header-bottom{
-        height: 145vh;
+        height: 135vh;
         background-image: url("/img/backgrounds/phone/discounts-cover.svg");
     }
 
@@ -426,7 +426,7 @@ padding-top: 9rem;
 
 /* CONTACT SECTION */
 #contact{
-   height: 90vh;
+   height: 80vh;
 }
 
 .contact-form{
