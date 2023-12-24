@@ -8,6 +8,7 @@
 --tertiary-color:#6C3428;
 --quaternary-color: #F7F1E5; /* #F5EEDC; #FAEED1; #F5E8C7; #F7F1E5; */
 --fifth-color: #E38B29;
+--six-color:#F5F1EC;
 }
 
 /* CSS RESET */
@@ -34,7 +35,6 @@ img{
     padding: 0 1.5rem;
     overflow: hidden;
     margin: auto;
-
 }
 
 .btn{
@@ -60,9 +60,10 @@ img{
 
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
-   height: 60vh;
-    background-image: url("/img/backgrounds/background.jpg");
-    background-size: cover;
+   height: 100vh;
+    background-image: url("/img/backgrounds/background2.jpg");
+    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -98,95 +99,38 @@ img{
     color:#fff;
 }
 
+#header-content{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
 
-/* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
-#header-bottom {
-   height: 140vh;
-    width: 100vw;
-    background-image: url("/img/backgrounds/pexels-eva-bronzini-7599590.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top-left-radius: 80% 20%;
-    border-top-right-radius: 80% 20%;
+
+#content-box .title{
+    height: 48rem;
+    width: 28rem;
+    margin-top: -6rem;
+    margin-left: -1rem;
     position: relative;
-    z-index:1;
-    margin-top: -12rem;
 }
 
-#about-image{
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.profile-pic{
-   border-radius: 50%; 
-   height: 25rem;
-    width: 25rem;
-    object-fit:cover;
-    object-position: -100% 70%;
-    border: var(--primary-color) 10px solid;
-    margin-top: -10rem;
-    animation: jackanimation 4s;
-    animation-timing-function:ease-in-out;
-}
-
-@keyframes jackanimation{
-    0% {
-        margin-top: 20%;
-          }
-        50% {
-        margin-top: -160px;
-          }
-        100% {
-        margin-bottom:0%;
-          }
-        }
-
-
-#about-text{
-    height: 40%;
-   margin-top: 2rem;
-   animation: textanimation 2s;
-}
-
-@keyframes textanimation{
-    0% {
-        margin-top: 0%;
-          }
-        50% {
-        margin-top: 0px;
-          }
-        100% {
-        margin-bottom: 0%;
-          }
-        }
-
-#title1, #title2{
-    color: var(--tertiary-color);
-    line-height: 1.2;
-   
-}
-
-#title1{
-    font-family: 'Agbalumo', sans-serif;
-    font-size: 3rem;
-}
-
-#title2{
-    font-family: 'Dancing Script', cursive;
-    font-weight: bolder;
-    font-size: 3.6rem;
+#header-content #text-box{
+    height: 21rem;
+    width: 26rem;
+    background-color: var(--six-color);
+   text-align: center;
+   margin-top: -18rem;
 }
 
 .subtitle{
     color:var(--primary-color);
     font-size: 1.2rem;
     font-weight: 100;
-    margin-top: 2rem;
+    padding: 2rem;
+   
 }
 
 #links{
@@ -195,12 +139,40 @@ img{
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
-    margin-top: 1rem;
+    margin-top: -2rem;
 }
 
+#header-content #profile-pic{
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+    margin-top: 4rem;
+}
+
+/* BODY SECTION */
 /* DISCOUNTS SECTION */
+#header-bottom {
+   /* background: linear-gradient(-90deg, #EEE0D0, #D5B48F, #BAA792, #9F9F9F);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;*/
+    background-image: url("/img/backgrounds/discounts-cover.svg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 95vh;
+}
+
+.bone-pic{
+    height: 24rem;
+    width: 48rem;
+    margin-top: -4rem;
+    position: relative;
+}
+
+
 #discounts{
-    height: 40%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -208,8 +180,8 @@ img{
     align-items: center;
     row-gap: 2rem;
     column-gap: 2rem;
-    margin-top: -6rem;
-    padding: 0 10px;
+    padding: 16rem 10px 0 ;
+    margin-top: -22rem;
 }
 
 
@@ -249,12 +221,11 @@ img{
 
 
 .discount-box h3 {
-    background-color: #8A6C49; /* #B0926A; */
+    background-color: #BAA792; /* #B0926A; */
     font-size: 1.2rem;
     padding: 1rem;
-    color: var(--secondary-color);
-    
-
+    color: var(--tertiary-color);
+    font-weight:700;
   }
   
   .discount-box a {
@@ -281,11 +252,11 @@ img{
 
 /* CONTACT SECTION */
 #contact{
-    height:80vh;
-    width: 100vw;
+    height:100vh;
     text-align: center;
+  background-color: var(--six-color);
     position: relative;
-  background-color: var(--quaternary-color);
+
 }
 
 .contact-form{
@@ -295,14 +266,14 @@ img{
 
 
 .contact-form h2{
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding: 4rem 0.5rem 2rem;
  color: #E38B29;  /* #FFBB5C */
 
 }
 
 .contact-form p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
 }
 
@@ -312,7 +283,7 @@ img{
 
 #form{
     height: 40%;
-    margin-top: 4rem;
+    margin-top: 2rem;
     max-width: 1000px;
   min-width: 500px;
   display: inline-block;
@@ -324,6 +295,11 @@ img{
   color: #000;
   font-size: 1rem;
   width: 100%;
+}
+
+.bones-footer{
+    margin-top: 4rem;
+
 }
 
 /* FOOTER */
@@ -347,6 +323,10 @@ img{
     color: #fff;
 }
 
+#main-footer p a:hover{
+    color: var(--fifth-color);
+}
+
 .fa-paw{
     padding-left: 0.5rem;
 }
@@ -364,7 +344,7 @@ img{
     }
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
     #header-top{
-        height: 35vh;
+        height: 120vh;
      }
 
 /* NAVIGATION BAR */ 
@@ -373,67 +353,56 @@ img{
          font-size: 1.2rem;
      }
 
-/* BODY SECTION */
-/* ABOUT - PROFILE PIC + INTRO */
-#header-bottom{
-        height: 200vh;
-        margin-top: -3rem;
-        border-top-left-radius: 70% 6%;
-        border-top-right-radius: 70% 6%;
+
+     #content-box .title{
+        height: 38rem;
+        width: 18rem;
+         margin-top: -27rem;
     }
 
-#about-image{
-        height:10%;
+    #header-content #text-box{
+        height: 18rem;
+       position: relative;
     }
 
-.profile-pic{
-height: 15rem;
-width: 15rem;
-margin-top: -4rem;
-}
-
-
-@keyframes jackanimation{
-0% {
-    margin-top: 20%;
-      }
-    50% {
-    margin-top: -64px;
-      }
-    100% {
-    margin-bottom:0%;
-      }
-    } 
-
-#about-text{
-    height: 30%;
-        }
-
-#title1{
-        font-size: 2rem;
-    }
-
-#title2{
-    font-size: 2.2rem;
-}
+   
 
 .subtitle{
-    font-size: 1rem;
-    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
     font-weight: 600;
+    padding: 2rem 6rem;
 }
 
 #links{
-    margin-top: 0rem;
+    margin-top: -2rem;
 }
+
+
+
+/* BODY SECTION */
+/* ABOUT - PROFILE PIC + INTRO */
+#header-bottom{
+        height: 145vh;
+        background-image: url("/img/backgrounds/phone/discounts-cover.svg");
+    }
+
+ .bone-pic{
+        height: 16rem;
+        width: 28rem;
+        display: inline-block;
+        width: 100%;
+      margin-top: -3rem;
+        
+    }
+
 
 /* DISCOUNTS SECTION */
 #discounts {
-    height: 60%;
-margin: -5rem 1rem 0;
-row-gap: 0;
+margin: -13rem 1rem 0;
+row-gap: 1rem;
+padding-top: 9rem;
   }
-
 
   .discount-box h3 {
     font-size: 1.1rem;
@@ -457,7 +426,7 @@ row-gap: 0;
 
 /* CONTACT SECTION */
 #contact{
-   height: 110vh;
+   height: 90vh;
 }
 
 .contact-form{
@@ -471,6 +440,7 @@ row-gap: 0;
 
 .contact-form p{
     padding: 0.5rem;
+    font-size: 0.8rem;
 }
 
 #form{
@@ -481,8 +451,13 @@ row-gap: 0;
 
 #message{
     margin-top: -1rem;
+    font-size: 0.8rem;
 }
 
+.bones-footer{
+    margin-top: 2rem;
+  
+}
 
 /* FOOTER */
 #main-footer{
@@ -503,64 +478,41 @@ row-gap: 0;
 
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
 #header-top{
-    height: 45vh;
+    height: 160vh;
  }
+
+ #content-box .title{
+     margin-top: -20rem;
+}
+
+#header-content #text-box{
+    height: 20rem;
+    width: 26rem;
+}
+
+
+.subtitle{
+font-weight: 600;
+}
+
 
 
 /* BODY SECTION */
 /* ABOUT - PROFILE PIC + INTRO */
 #header-bottom{
-    height: 210vh;
-    margin-top: -4rem;
-    border-top-left-radius: 70% 6%;
-    border-top-right-radius: 70% 6%;
-}
-
-#about-image{
-    height:20%;
-}
-
-.profile-pic{
-height: 20rem;
-width: 20rem;
-margin-top: -14rem;
-}
-
-@keyframes jackanimation{
-    0% {
-        margin-top: 20%;
-          }
-        50% {
-        margin-top: -224px;
-          }
-        100% {
-        margin-bottom:0%;
-          }
-        }
- 
-
- #about-text{
-    height: 30%;
-   margin-top:-5rem;
-    }
-
-#title1{
-    font-size: 2.4rem;
-}
-
-#title2{
-font-size: 2.8rem;
+    height: 165vh;
+    background-image: url("/img/backgrounds/phone/discounts-cover.svg");
 }
 
 
-#links{
-margin-top: 0;
+.bone-pic{   
+    display: inline-block;
+    width: 100%; 
 }
+
 
 /* DISCOUNTS SECTION */
 #discounts {
-height: 50%;
-margin-top: -4rem;
 row-gap: 1rem;
 }
 
@@ -586,7 +538,7 @@ width: 35%;
 
 /* CONTACT SECTION */
 #contact{
-    height: 100vh;
+    height: 130vh;
 }
 
 #form{
@@ -594,6 +546,10 @@ max-width: 400px;
 min-width: 260px; 
 }
 
+.bones-footer{
+    margin-top: 3rem;
+  
+}
 
 }
 
