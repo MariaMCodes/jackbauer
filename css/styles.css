@@ -345,7 +345,7 @@ img{
     }
 /* HEADER SECTION - DOG BONE BACKGROUND IMAGE */
     #header-top{
-        height: 130vh;
+        height: 120vh;
      }
 
 /* NAVIGATION BAR */ 
@@ -362,7 +362,7 @@ img{
     }
 
     #header-content #text-box{
-        height: 22rem;
+        height: 23rem;
        position: relative;
     }
 
@@ -427,7 +427,7 @@ padding-top: 9rem;
 
 /* CONTACT SECTION */
 #contact{
-   height: 90vh;
+   height: 100vh;
 }
 
 .contact-form{
