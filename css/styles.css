@@ -88,10 +88,11 @@ img{
     display:inline-block;
     padding: 1.2rem 2rem;
     text-decoration: none;
-    color: #000;
+    color: var(--primary-color);
     font-size: 1.4rem;
     font-weight: 500;
     text-transform: uppercase;
+    font-family: 'Agbalumo', sans-serif;
 }
 
 #navbar ul .nav-link:hover{
@@ -298,7 +299,7 @@ img{
 }
 
 .bones-footer{
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 
@@ -368,7 +369,7 @@ img{
    
 
 .subtitle{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 2.5rem;
     font-weight: 600;
     padding: 2rem 6rem;
@@ -440,7 +441,7 @@ padding-top: 9rem;
 
 .contact-form p{
     padding: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 #form{
